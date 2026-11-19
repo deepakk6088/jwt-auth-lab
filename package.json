@@ -1,0 +1,25 @@
+{
+  "name": "jwt-auth-lab",
+  "version": "1.0.0",
+  "description": "JWT Authentication System using Express, Prisma and PostgreSQL",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+  "start": "tsx server.js",
+  "prisma:generate": "prisma generate",
+  "prisma:migrate": "prisma migrate dev"
+},
+  "dependencies": {
+    "@prisma/adapter-pg": "7.10.1",
+    "@prisma/client": "7.10.1",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "prisma": "7.10.1",
+    "tsx": "^4.23.15"
+  }
+}
